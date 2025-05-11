@@ -2,6 +2,58 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
+# Auth API 
+
+Uma API de autenticação construída com o framework **NestJS**, projetada para gerenciar autenticação e autorização de usuários.
+
+
+
+Funcionalidades
+- **Login**: Autenticação de usuários com credenciais.
+- **Logout**: Encerramento de sessões de usuários.
+- **Registro**: Cadastro de novos usuários.
+- **Perfil**: Recuperação de informações do perfil do usuário.
+- **Refresh Token**: Renovação de sessões de usuários.
+  
+## Tecnologias Utilizadas
+- **NestJS**: Framework para construção de aplicações Node.js escaláveis.
+- **TypeScript**: Linguagem para desenvolvimento tipado.
+- **Jest**: Framework de testes para garantir a qualidade do código.
+
+## Como Usar
+
+```bash
+# Clone o repositório:
+$ git clone https://github.com/seu-usuario/auth-api.git
+
+# Instale as dependências:
+$ npm install
+
+# Inicie o servidor:
+$ npm run start
+
+# Inicie o servidor no modo watch
+$ npm run start:dev
+
+# Modo produção
+$ npm run start:prod
+```
+
+## Testes
+
+```bash
+# Execute os testes unitários:
+$ npm run test
+
+# Execute os testes de integração:
+$ npm run test:e2e
+
+# Execute o coverage
+$ npm run test:cov
+```
+
+
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
@@ -20,42 +72,6 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Project setup
-
-```bash
-$ npm install
-```
-
-## Compile and run the project
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Deployment
 
