@@ -3,6 +3,12 @@
 /node_modules
 /build
 
+/generated
+
+/prisma
+# local env files
+.env
+
 # Logs
 logs
 *.log
